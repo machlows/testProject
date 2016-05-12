@@ -401,10 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tomasz Machlowski (RCHN3VR634)";
 				INFOPLIST_FILE = testProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomaszMachlowski.testProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8f089fb-2b3f-4fd2-92db-da7ae104c178";
 			};
 			name = Debug;
 		};
@@ -412,10 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tomasz Machlowski (RCHN3VR634)";
 				INFOPLIST_FILE = testProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomaszMachlowski.testProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8f089fb-2b3f-4fd2-92db-da7ae104c178";
 			};
 			name = Release;
 		};
@@ -484,6 +488,7 @@
 				4086B3391CE47A15004E0162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4086B33A1CE47A15004E0162 /* Build configuration list for PBXNativeTarget "testProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				4086B33C1CE47A15004E0162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4086B33D1CE47A15004E0162 /* Build configuration list for PBXNativeTarget "testProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				4086B33F1CE47A15004E0162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
